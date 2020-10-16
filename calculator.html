@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./calculator.css">
+  <link href='https://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet'>
+</head>
+<body>
+  <div id="calc-border">
+    <div id="brand-solar-container">
+      <div id="brand">Ben's Instruments</div>
+      <div id="solar-cells">
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+      </div>
+    </div>
+    <div id="calc-container">
+      <div id="calc-display">0</div>
+      <button value="back" class="opers" id="backspace"><--</button>
+      <button value="clear" class="opers" id="clear">C</button>
+      <button value="7" id="seven">7</button>
+      <button value="8" id="eight">8</button>
+      <button value="9" id="nine">9</button>
+      <button value="/" class="opers" id="divide">/</button>
+      <button value="4" id="four">4</button>
+      <button value="5" id="five">5</button>
+      <button value="6" id="six">6</button>
+      <button value="*" class="opers" id="multiply">*</button>
+      <button value="1" id="one">1</button>
+      <button value="2" id="two">2</button>
+      <button value="3" id="three">3</button>
+      <button value="-" class="opers" id="minus">-</button>
+      <button value="0" id="zero">0</button>
+      <button value="." id="decimal">.</button>
+      <button value="=" id="equals">=</button>
+      <button value="+" class="opers" id="plus">+</button>    
+    </div>
+  </div>
+  <script src="./calculator.js"></script>
+</body>
+</html>
